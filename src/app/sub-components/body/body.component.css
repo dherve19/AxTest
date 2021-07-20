@@ -1,0 +1,133 @@
+.body {
+    background-color: #eee;
+    height: 220vh;
+
+    border: 1px solid #eee;
+}
+
+/* ----------------------------------------------------------------------- */
+.carouselSection{
+    margin: 1.5%;
+
+    height: 70vh;
+}
+
+.carousel_img {
+    width: 100%;
+    height: 70vh;
+
+    object-fit: cover;
+}
+/* ------------------------------------------------------------------------ */
+
+.secondPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 70vh;
+    width: 100%;
+
+    margin: 1% 0 0 0;
+}
+
+.secondPart > section {
+    width: 65%;
+    height: 65vh;
+    margin-right: 1vw; 
+
+    background-color: #fff;
+}
+
+.secondPart > aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 65vh;
+
+    margin-left: 1vw; 
+
+    background-color: #fff;
+}
+
+.rightDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 28%;
+    height: 65vh;
+}
+/* ---------------------------------------------- */
+
+.thirdPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 70vh;
+    width: 100%;
+
+    padding: 0 1.5%;
+}
+
+.thirdPart > section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+    width: 67%;
+    height: 70vh;
+
+    background-color: #eee;
+}
+
+.thirdPart > section > h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5em;
+}
+
+.thirdPart > aside {
+    width: 31%;
+    height: 65vh;
+
+    background-color: #fff;
+}
+
+#leftDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 48.5%;
+    height: 65vh;
+
+    margin-right: 1.5%;
+    background-color: #fff;
+}
+
+#rightDiv{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 48.5%;
+    height: 65vh;
+
+    margin-left: 1.5%;
+    background-color: #fff;
+}

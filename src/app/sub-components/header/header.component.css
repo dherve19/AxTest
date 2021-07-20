@@ -1,0 +1,80 @@
+/* Nav Bar seperating both sides of the header */
+#mainNav{
+    border-bottom: 1px;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+
+    /* border: 1px solid red; */
+}
+#navbarNav{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+
+    /* border: 1px solid red; */
+}
+
+.navigationBar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+
+    background-color: #444;
+}
+
+.navigationBar > li {
+    list-style: none;
+}
+
+.navigationBar > li > a {
+    color: white;
+}
+
+/* ------------------------------------------------------------ */
+
+.divNice{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+
+    /* border: 1px solid red; */
+}
+
+.leftDiv{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+
+    padding-left: 7%;
+    /* border: 1px solid red; */
+
+}
+
+.rightDiv{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+
+    padding-left: 31%;
+    /* border: 1px solid red; */
+
+}
+.rightDiv > p{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+
+    padding-right: 10%;
+    /* border: 1px solid red; */
+
+}
+
